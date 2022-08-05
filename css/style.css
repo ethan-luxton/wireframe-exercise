@@ -1,0 +1,97 @@
+body {
+display: flex;
+flex-direction: column;
+margin: 0px;
+background-color: rgb(43, 42, 42);
+}
+header {
+background-color: rgb(112, 111, 111);
+height: 100px;
+width: 100vw;
+padding-right: 2rem;
+padding-left: 2rem;
+
+}
+nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+flex-grow: 2;
+margin: 1rem;
+padding-bottom: 1rem;
+}
+a {
+display: flex;
+text-decoration: none;
+padding-left: 2vw;
+align-items: center;
+flex-grow: 2;
+color: azure;
+}
+a:hover {
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.281);
+}
+main {
+justify-content: space-evenly;
+margin: 1rem;
+width: 100vw;
+}
+section {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-left: 20vw;
+margin: 1rem;
+}
+
+button {
+background-color: grey;
+height: 50px;
+width: 100px;
+margin: 1rem;
+color:azure;
+border-radius: 20px;
+}
+button:hover {
+background-color: rgba(0, 0, 0, 0.281);
+}
+img {
+margin: auto;
+flex: 0 1 auto;
+}
+#main-img {
+    padding-left: 21vw;
+}
+ul {
+    padding-left: 20vw;
+}
+li {
+    display: inline-block;
+    padding: 1rem;
+}
+h2 {
+display: flex;
+margin: 1rem;
+width: 100%;
+color: azure;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+display: flex;
+justify-content: space-evenly;
+margin: 1rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: azure;
+}
+footer {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+color: azure;
+padding: 2rem;
+width: 100vw;
+background-color: rgb(112, 111, 111);
+}
+
+
